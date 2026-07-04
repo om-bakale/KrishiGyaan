@@ -1,23 +1,10 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+'''env
+PORT=5173
+GROQ_API_KEY=your_primary_groq_api_key
+GROQ_API_KEY2=your_fallback_groq_api_key
+GROQ_MODEL=llama-3.1-8b-instant
+CROP_KINDWISE_API_KEY=your_crop_kindwise_api_key
+PLANT_ID_API_KEY=your_plant_id_api_key
+MONGODB_URI=your_mongodb_connection_string
+MONGODB_DB=krishigyaan
+'''
